@@ -49,6 +49,10 @@ a.last-nav {
   color: #FFF;
 }
 
+.active {
+  color: #0F4C81;
+}
+
 
 @media only screen and (min-width: 768px) {
   .navbar {

@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .container {
@@ -12,12 +12,18 @@ body {
   padding: 0 15px;
 }
 
-.bold {
-  font-weight: 800;
-}
-
 a:hover {
   color: #0F4C81;
 
   transition: .3s;
+}
+
+/* typographies */
+
+.bold {
+  font-weight: 800;
+}
+
+.light {
+  font-weight: 300;
 }
