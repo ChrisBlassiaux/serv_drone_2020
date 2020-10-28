@@ -1,7 +1,7 @@
 .header {
   height: 600px;
 
-  background: center / cover no-repeat url(../images/backgound.jpg);
+  background: center / cover no-repeat url(/images/header.jpg);
 }
 
 .navbar {
@@ -61,6 +61,9 @@ a.last-nav {
     left: 0;
     right: 0;
     height: 100px;
+
+
+    z-index: 2;
   }  
 
   .navbar img {
