@@ -27,3 +27,10 @@ a:hover {
 .light {
   font-weight: 300;
 }
+
+.title {
+  font-size: 1.9em;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 20px 0;
+}

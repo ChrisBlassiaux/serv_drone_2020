@@ -1,0 +1,13 @@
+.technology {
+  display: flex;
+  
+
+  background-color: #B8D4D4;
+  padding: 70px 0;
+}
+
+.tech-img {
+  height: 300px;
+
+  background: center / cover no-repeat url(../images/backgound.jpg);
+}

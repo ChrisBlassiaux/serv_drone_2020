@@ -42,7 +42,7 @@ a.last-nav {
   margin-top: 10px;
 }
 
-.presentation .title {
+.prenstation-title {
   margin-top: 50px;
   font-size: 3em;
   font-weight: 800;
@@ -56,11 +56,19 @@ a.last-nav {
 
 @media only screen and (min-width: 768px) {
   .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 100px;
   }  
 
   .navbar img {
     padding-top: 0;
+  }
+
+  .header {
+    margin-top: 110px;
   }
 
   .container-navbar {
@@ -73,8 +81,11 @@ a.last-nav {
     text-align: right;
   }
 
-  .presentation .title {
-    margin-top: 200px;
+  .presentation {
+    padding-top: 150px;
+  }
+
+  .prenstation-title {
     font-size: 5em;
     font-weight: 800;
     color: #FFF;
