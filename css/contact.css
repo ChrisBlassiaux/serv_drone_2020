@@ -94,6 +94,7 @@ form {
 }
 
 .contact-submit input {
+  margin-top: 20px;
   padding: .6em;
   font-size: 1em;
   background-color: #febf01;
@@ -136,4 +137,8 @@ footer {
 }  
 .iconFooter{
  padding: 0.9em;
+}
+
+.link {
+  color: #2599ff;
 }
