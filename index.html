@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/technology.css">
     <link rel="stylesheet" href="css/services.css">
     <link rel="stylesheet" href="css/partners.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
   </head>
   <body>
     <header class="header">
@@ -152,5 +153,25 @@ de vos <span class="bold">tâches quotidiennes...</span>
         <a href="#" class="last-nav"><span class="fa fa-facebook-square fa-2x"></span></a>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#0f4c81",
+      "text": "#000000"
+    },
+    "button": {
+      "background": "#f8bf45"
+    }
+  },
+  "theme": "classic",
+  "content": {
+    "message": "Ce site web utilise des cookies pour vous faire profiter de la meilleure expérience sur notre site.",
+    "dismiss": "J'accepte!",
+    "link": "En savoir plus"
+  }
+});
+</script>
   </body>
 </html>
