@@ -1,5 +1,13 @@
+.content_event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .content_event p {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.content_event img {
+    padding-bottom: 50px;
 }
